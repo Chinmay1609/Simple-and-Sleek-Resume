@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+
+  overflow-x: hidden;
+  position: relative;
+  vertical-align: baseline;
+  background:linear-gradient(270deg,aqua,skyblue,azure);
+}
+
+.address,
+.skills,
+.education,
+.project,
+.contact,
+.experience {
+  padding: 40px;
+  min-height: 330px;
+}
+
+.education,
+.project,
+.contact,
+.experience {
+  margin-top: 30px;
+}
+
+.container:last-of-type {
+  margin-bottom: 50px;
+}
+
+header {
+  text-align: center;
+  min-height: 400px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 140px;
+}
+
+header img {
+  display: inline-block !important;
+  border: 3px solid white;
+  padding: 5px;
+}
+
+.intro,
+.intro-2 {
+  padding-top: 40px;
+  
+}
+
+.title {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.address,
+.education,
+.experience {
+  background-color: rgba(255, 255, 255, 0.4);
+  
+}
+
+.skills,
+.project,
+.contact {
+  background: rgba(125, 166, 255, 0.267);
+  
+}
+
+.progress {
+  margin: 10px 0;
+}
+
+.project-title {
+  color: black;
+}
+
+.project-description h5 {
+  font-size: 18px;
+}
+
+.contact p {
+  font-size: 18px;
+}
+
+.fa {
+  padding: 15px;
+}
